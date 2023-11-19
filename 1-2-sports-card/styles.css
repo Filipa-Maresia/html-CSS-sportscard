@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,300;0,400;1,500&display=swap');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+   
+}
+
+html {
+    background-size: cover;
+    background: rgb(255,0,9);
+    background: linear-gradient(90deg, rgba(255,0,9,1) 35%, rgba(175,0,255,1) 100%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-style: solid;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    
+}
+
+
+.card_div {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(253,233,45,1) 100%);
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+.logoprice {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+img {
+    width: 45px;
+}
+
+.container h1 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 600;
+   
+}
+
+.container p {
+    font-size: 10px;
+}
+
+.card_div .air {
+    font-size: 200px;
+    color: white;
+    letter-spacing: 10px;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    margin: 0 -10px;
+}
+
+
+.card_div .air span {
+    opacity: 0.6;
+    margin-left: -30px;
+}
+
+.card_div .tilha {
+    position: absolute;
+    width: 300px;
+    bottom: 0px;
+    left: 30px;
+}
+
+.container {
+
+    letter-spacing: 1px;
+    color: white;
+}
+
+.card_div .botaofooter {
+    background-color: white;
+    margin: 0 -10px -10px;
+    border-radius: 0 0 10px 10px ;
+    padding: 30px;
+    text-align: center; 
+}
+
+.card_div .botaofooter button {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: blue;
+    background-color: transparent;
+    color: blue;
+}
+
+.card_div .botaofooter button:hover {
+    background-color: blue;
+}
+
+.card_div .botaofooter footer {
+    letter-spacing: 2px;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    opacity: 60%;
+}
+
+
+
+
